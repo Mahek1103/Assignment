@@ -1,0 +1,131 @@
+/* Navigation Bar */
+nav {
+    background-color: #9e3c6d;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav img{
+    width: 80px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: rgb(206, 64, 111);
+  }
+  
+  /* Home Page */
+  .home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  .home-container h1 {
+    font-size: 2.5em;
+  }
+  .home-container a {
+    text-decoration: none;
+    color: white;
+    background-color: #530b0b;
+    padding: 10px 20px;
+    border-radius: 35px;
+    transition: background-color 0.3s;
+  }
+  .home-container a:hover {
+    background-color: #77eaee;
+  }
+  
+  /* About Page */
+  .about-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  .about-container img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+  .about-container div {
+    margin-left: 30px;
+    max-width: 600px;
+  }
+  .about-container h1 {
+    font-size: 2em;
+  }
+  .about-container p {
+    font-size: 1.2em;
+  }
+  
+  /* Portfolio Page */
+  .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+  }
+  .card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: rgb(206, 64, 111);
+   
+      
+  }
+  
+  /* Contact Page */
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  .contact-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 35px;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  .contact-form button:hover {
+    background-color: #5a0909;
+    
+  }
